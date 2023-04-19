@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <%- include('header'); -%>
+    </header>
+    <main>
+            <div class="product_name">
+                <h1>
+                    <%= nameProduct %>
+                </h1>
+            </div>
+            <div class="tabs">
+                <ul class="tabs_list">
+                    <li class="tabs_item"><a href="" class="tabs_link">Усе про товар</a></li>
+                    <li class="tabs_item"><a href="" class="tabs_link">Характеристики</a></li>
+                    <li class="tabs_item"><a href="" class="tabs_link">Відгуки</a></li>
+                    <li class="tabs_item"><a href="" class="tabs_link">Питання</a></li>
+                    <li class="tabs_item"><a href="" class="tabs_link">фото</a></li>
+                    <li class="tabs_item"><a href="" class="tabs_link">Купують разом</a></li>
+                </ul>
+            </div>
+            <section class="product_about">
+                <div class="photo_gallary">
+                    <div class="btn"></div>
+                </div>
+                <div class="other_about">
+
+                </div>
+            </section>
+            <section class="other_product"></section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+
